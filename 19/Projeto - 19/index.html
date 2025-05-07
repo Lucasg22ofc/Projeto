@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/radar.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>Teste Drive</title>
+</head>
+<body> 
+    <div class="radar">
+     <h1>RADAR DE VELOCIDADE</h1>
+       <h2>Limite de velocidade 60KM/H</h2><br>
+        
+       <label for="vel">VELOCIDADE:</label>
+         <input type="text" id="vel" placeholder="Velocidade">
+         <input type="button" value="VERIFICAR" id="verificar" onclick="verificar()"> 
+         <input type="button" value="FINALIZAR" id="finalizarbutton" onclick="finalizarbutton()">
+
+        <p id="mensagem"></p>
+        <ul id="listaVelocidades"></ul>
+        
+    </div>
+    <script src="iindex.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background-image: url(imagem/carro.png);
+    background-size: 100%; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+}
+
+.radar{
+    margin-left: 450px;
+    margin-top: 100px;
+   background-color: transparent;
+    padding: 35px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+    box-sizing: border-box;
+    z-index: 1;
+    position: relative;
+}
+.radar input[type=text] {
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 5px;
+}
+
+input::placeholder {
+    font-family: monospace;
+    animation: blink 1s step-start infinite;
+    color: black;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+#verificar, #finalizarbutton {
+    background-color: rgb(219, 253, 255);
+    cursor: pointer;
+    transition: 0.3s ease;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+#verificar:hover, #finalizarbutton:hover {
+    transform: translateY(-5px);
+    border-radius: 7px;
+    background-color: rgb(0, 255, 76);
+}

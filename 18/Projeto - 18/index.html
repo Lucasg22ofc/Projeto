@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/compras.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>TABELA DE COMPRAS</title>
+</head>
+<body>
+
+  <div class="cenario">
+    <img src="imagem/gif.png" alt="Menina correndo com carrinho" id="meninaAnimada" class="menina">
+ </div>
+
+  <div class="tabela">
+    <h1>TABELA DE COMPRAS</h1>
+    <input type="text" name="texto" id="inputTarefa" placeholder=" Adicione um alimento" placeholder="|">
+    <p>
+      <input type="button" value="Adicionar" onclick="clicar()">
+    </p>
+    <p id="mensagem"></p>
+    <ul id="listatarefas"></ul>
+    <p>
+      <button id="finalizarBtn">Finalizar Compras</button>
+    </p>
+  </div>
+    <script src="index.js"></script>
+</body>
+</html>

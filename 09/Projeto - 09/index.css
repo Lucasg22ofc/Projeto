@@ -1,0 +1,102 @@
+body {
+    background-image: url(imagens/calendario.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  header {
+    color: #3a6073;
+    background-color: #ffffffdd;
+    width: 500px;
+    margin: 90px auto 0 auto;
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 70px auto 0 auto;
+    border-radius: 15px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    animation: piscar-border 10s infinite;
+  }
+  
+  @keyframes piscar-border {
+    0% { box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.8); }
+    50% { box-shadow: 0 0 10px 4px rgba(136, 130, 130, 0); }
+    100% { box-shadow: 0 0 10px 4px rgba(255, 0, 0, 0); }
+  }
+  
+  footer {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 100px;
+    font-style: italic;
+  }
+  
+  footer a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  section div.foto img {
+    width: 300px;
+  }
+  
+  .formulario p {
+    background-color: #e1ecf4;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #txtano {
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  #button {
+    border-radius: 10px;
+    color: black;
+    background-color: #3a6073;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  #button:hover {
+    transform: translateY(-5px);
+    background-color: #00fff2;
+  }
+  
+  #res {
+    color: #3700ff;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+   
+

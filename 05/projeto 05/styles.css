@@ -18,11 +18,11 @@ body{
     justify-content: center;
     flex-direction: column;
     margin-top: 150px;
-    background-color: rgb(85, 87, 87);
+    background-color: rgb(0, 0, 0);
     width: 500px;
     margin-left: 475px;
     border-radius: 20px;
-    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 15px 15px 15px rgb(255, 255, 255);
 }
 input[type="text"]{
    border-radius: 20px;
@@ -47,5 +47,12 @@ input[type="button"]{
 }
 input[type="button"]:hover{
     transform: translateY(-4px);
-    background-color: rgb(98, 255, 195);
+    background-color: rgb(0, 217, 255);
+}
+.container h1{
+    color: rgb(255, 255, 255);
+}
+.texto{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }

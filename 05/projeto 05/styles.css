@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+    font: optional;
+    background-image: url(imagem/carro.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    margin: 0;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+    background-color: rgb(85, 87, 87);
+    width: 500px;
+    margin-left: 475px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+}
+input[type="text"]{
+   border-radius: 20px;
+   width: 200px;
+   height: 30px;
+   font-size: 15px;
+   padding: 5px 10px;
+}
+input[type="text"]:focus{
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+}
+input[type="button"]{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+input[type="button"]:hover{
+    transform: translateY(-4px);
+    background-color: rgb(98, 255, 195);
+}

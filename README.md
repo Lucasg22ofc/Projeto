@@ -1,5 +1,6 @@
 # PAGINA-MENU:
-criamos uma pagina menu, com muitos serviços e ultilidades! 
+Como podemos vê, temos vários projetos dentro do mesmo repositório!
+Aonde temos muitos projetos diferentes e muito interressantes também!
 
 # TECNOLOGIAS:
 - HTML
